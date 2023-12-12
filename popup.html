@@ -17,6 +17,15 @@
       width: 100%;
       background: #c9c9c9;
     }
+    .author {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+      font-weight: bold;
+      color: #000000;
+      margin: 5px 0 5px 0;
+    }
     .four_button .btn_imp, .four_button .btn_exp {
       border: none;
       border-radius: 50px;
@@ -115,32 +124,33 @@
 </head>
 
 <body>
+	<div class="author">
+    <a href="https://www.facebook.com/HACKER.HAMIM.BHAI" target="_blank" class="author"><img src="./logo/128.png" alt="logo"
+        width="20px" height="20px"></a>
   <div class="four_button" style="width: auto; height: auto; margin-left: 20px; margin-right: 20px">
     
     <br>
     <input id="import" type="file" style="display: none; margin-top: 50px "/>
-    <label for="import" class="btn_imp">Import FBState</label>
+    <label for="import" class="btn_imp">Import X2State</label>
     <input id="importenc" type="file" style="display: none;"/>
-    <label for="importenc" class="btn_imp" style="margin-bottom: 15px;">Import FBState (encrypted)</label>
+    <label for="importenc" class="btn_imp" style="margin-bottom: 15px;">Import X2State (encrypted)</label>
 
 
-    <input id="export" class="btn_exp" type="button" value="Export FBState"/>
-    <input id="exportenc" class="btn_exp" type="button" value="Export FBState (encrypted)"/>
+    <input id="export" class="btn_exp" type="button" value="Export X2State"/>
+    <input id="exportenc" class="btn_exp" type="button" value="Export X2State (encrypted)"/>
 		
-    <p style="margin-top: 6px;">
-     <a href="https://github.com/c3cbot/c3c-fbstate/" target="_blank" style="color:#000000; font-size: 13px; height: auto; margin-top: 30px;">GitHub Author</a>
-    </p>
+    <p style="margin-top: 6px;" </p>
   </div>
   
   <div class="text-boxes">
-    <div class="topic">Your Fbstate Here:</div>
+    <div class="topic">Your X2state Here:</div>
     <textarea id="yourFbstate" placeholder="Your Fbstate"></textarea>
     <div class="two_button">
       <button id="btnCopy" class="btn">Copy to clipboard</button>
-      <button id="dlFbstate" class="btn">Download Fbstate.json</button>
+      <button id="dlFbstate" class="btn">Download X2state.json</button>
     </div>
   </div>
-  
+  <h6>©H4M1M_X2</h6>
 </body>
 
 </html>
